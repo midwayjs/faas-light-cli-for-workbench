@@ -1,0 +1,35 @@
+{
+  "name": "@midwayjs/faas-light-cli-for-workbench",
+  "version": "0.0.1",
+  "main": "dist/index",
+  "typings": "dist/index.d.ts",
+  "dependencies": {
+    "@midwayjs/debugger": "^0.0.3",
+    "@midwayjs/fcli-command-core": "^0.2.89",
+    "@midwayjs/fcli-plugin-dev-pack": "^0.2.89",
+    "@midwayjs/fcli-plugin-invoke": "^0.2.89",
+    "@midwayjs/fcli-plugin-package": "^0.2.89",
+    "@midwayjs/fcli-plugin-test": "^0.2.89",
+    "@midwayjs/serverless-spec-builder": "^0.2.89",
+    "minimist": "^1.2.5",
+    "source-map-support": "^0.5.19"
+  },
+  "bin": {
+    "mf": "bin/fun.js",
+    "f": "bin/fun.js"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "files": [
+    "bin",
+    "src",
+    "dist",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:midwayjs/faas-light-cli-for-workbench.git"
+  },
+  "license": "MIT"
+}
