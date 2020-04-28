@@ -1,5 +1,5 @@
 {
-  "name": "@midwayjs/faas-light-cli-for-workbench",
+  "name": "faas-light-cli-for-workbench",
   "version": "0.0.1",
   "main": "dist/index",
   "typings": "dist/index.d.ts",
